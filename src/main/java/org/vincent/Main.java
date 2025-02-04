@@ -16,5 +16,10 @@ public class Main {
         System.out.println(Constants.NUMBER + " isEven: "
                 + ValidatorUtils.evenValidators(Constants.NUMBER)
         );
+
+        System.out.println("String = " + Constants.MAIN_STRING + ". search string = "
+                + Constants.SEARCH_STRING + ". result = " +
+                StringUtils.charRemover(Constants.MAIN_STRING,Constants.SEARCH_STRING)
+        );
     }
 }
