@@ -21,5 +21,9 @@ public class Main {
                 + Constants.SEARCH_STRING + ". result = " +
                 StringUtils.charRemover(Constants.MAIN_STRING,Constants.SEARCH_STRING)
         );
+
+        System.out.println("Input = " + Constants.PALINDROME_INPUT + ". it is " +
+                ValidatorUtils.palindromeValidators(Constants.PALINDROME_INPUT)
+        );
     }
 }

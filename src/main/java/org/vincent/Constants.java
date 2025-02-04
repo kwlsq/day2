@@ -6,4 +6,5 @@ public class Constants {
     static int NUMBER = 1000;
     static String MAIN_STRING = "Hello Hello";
     static String SEARCH_STRING = "ell";
+    static String PALINDROME_INPUT = "madam";
 }
