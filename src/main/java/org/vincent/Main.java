@@ -6,14 +6,12 @@ public class Main {
     static double temperature = 1.5;
     static double length = 200000;
     public static void main(String[] args) {
-        System.out.println(
-                temperature + " Fahrenheit = "
+        System.out.println(temperature + " Fahrenheit = "
                 + ConverterUtils.fahrenheitToCelsiusConverter(temperature) + " Celsius"
         );
 
-        System.out.println(
-                length + " cm = "
-                        + ConverterUtils.centimeterToKilometerConverter(length) + " km"
+        System.out.println(length + " cm = "
+                + ConverterUtils.centimeterToKilometerConverter(length) + " km"
         );
 
     }
