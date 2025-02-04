@@ -8,12 +8,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(
                 temperature + " Fahrenheit = "
-                + TemperatureUtils.fahrenheitToCelsiusConverter(temperature) + " Celsius"
+                + ConverterUtils.fahrenheitToCelsiusConverter(temperature) + " Celsius"
         );
 
         System.out.println(
                 length + " cm = "
-                        + MetricLengthUtils.centimeterToKilometerConverter(length) + " km"
+                        + ConverterUtils.centimeterToKilometerConverter(length) + " km"
         );
 
     }
