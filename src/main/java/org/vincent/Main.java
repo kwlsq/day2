@@ -13,5 +13,8 @@ public class Main {
                 + ConverterUtils.centimeterToKilometerConverter(Constants.LENGTH) + " km"
         );
 
+        System.out.println(Constants.NUMBER + " isEven: "
+                + ValidatorUtils.evenValidators(Constants.NUMBER)
+        );
     }
 }
